@@ -1,7 +1,7 @@
 ---
 import { Icon } from 'astro-icon/components'
 import DisplaySettings from './widget/DisplaySettings.svelte'
-import { LinkPreset, type NavBarLink } from '../types/config'
+import type { LinkPreset, NavBarLink } from '../types/config'
 import { navBarConfig, siteConfig } from '../config'
 import NavMenuPanel from './widget/NavMenuPanel.astro'
 import Search from './Search.svelte'
@@ -10,7 +10,7 @@ import LightDarkSwitch from './LightDarkSwitch.svelte'
 import { url } from '../utils/url-utils'
 const className = Astro.props.class
 
-let links: NavBarLink[] = navBarConfig.links.map(
+const links: NavBarLink[] = navBarConfig.links.map(
   (item: NavBarLink | LinkPreset): NavBarLink => {
     if (typeof item === 'number') {
       return LinkPresets[item]
