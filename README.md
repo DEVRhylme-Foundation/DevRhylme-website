@@ -4,9 +4,9 @@ A static blog template built with [Astro](https://astro.build) for **DevRhylme F
 
 [**🖥️ Live Demo**](https://www.devrhylme.org/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 
-> README version: `2024-10-13`
+> README version: `2024-09-10`
 
-![Preview Image](https://github.com/user-attachments/assets/7518ee27-75cc-4628-b9ee-66461ceca790)
+![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
 
 ## ✨ Features
 
@@ -47,15 +47,15 @@ lang: en      # Set only if the post's language differs from the site's language
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                            | Action                                           |
-|:----------------------------------- |:-------------------------------------------------|
-| `npm install` AND `npm install sharp` | Installs dependencies                            |
-| `npm run dev`                       | Starts local dev server at `localhost:4321`      |
-| `npm run build`                     | Builds your production site to `./dist/`         |
-| `npm run preview`                   | Previews your build locally, before deploying    |
-| `npm run new-post <filename>`       | Creates a new post                               |
-| `npm astro ...`                     | Run CLI commands like `astro add`, `astro check` |
-| `npm astro --help`                  | Get help using the Astro CLI                     |
+| Command                             | Action                                           |
+|:------------------------------------|:-------------------------------------------------|
+| `pnpm install` AND `pnpm add sharp` | Installs dependencies                            |
+| `pnpm dev`                          | Starts local dev server at `localhost:4321`      |
+| `pnpm build`                        | Build your production site to `./dist/`          |
+| `pnpm preview`                      | Preview your build locally, before deploying     |
+| `pnpm new-post <filename>`          | Create a new post                                |
+| `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro --help`                 | Get help using the Astro CLI                     |
 
 <br>
 Don't Forget to Give a ⭐
