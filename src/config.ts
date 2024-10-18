@@ -54,10 +54,10 @@ export const profileConfig: ProfileConfig = {
   links: [
     {
       name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
+      icon: 'fa6-brands:slack',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'https://join.slack.com/t/devrhylmefoundation/shared_invite/zt-2sjg2note-JAoszdfmfzJDsGk7vXcZag',
     },
     {
       name: 'linkedin',
