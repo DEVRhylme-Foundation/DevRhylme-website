@@ -4,6 +4,7 @@ enum I18nKey {
   archive = 'archive',
   search = 'search',
   event = 'event',
+  projects ='projects',
 
   tags = 'tags',
   categories = 'categories',
